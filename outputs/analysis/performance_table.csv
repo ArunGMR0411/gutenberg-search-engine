@@ -1,0 +1,12 @@
+metric,value
+Documents indexed,70772
+Total text read (GB),27.8
+Build time (s),37826.0
+Throughput (docs/s),1.87
+Throughput (MB/s),0.74
+Peak memory (MB),1009
+SPIMI blocks,150
+Vocabulary size,"22,463,450"
+Avg doc length (tokens),61570
+postings.bin (GB),1.15
+index.sqlite (GB),1.28

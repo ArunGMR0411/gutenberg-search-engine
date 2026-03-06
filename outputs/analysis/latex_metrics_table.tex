@@ -1,0 +1,31 @@
+\begin{table*}[t]
+\centering
+\caption{Evaluation Metrics per Query and Model (top-10 judged)}
+\label{tab:eval-metrics}
+\begin{tabular}{clccccc}
+\toprule
+Q\# & Model & P@10 & P@10\textsubscript{p} & AP@10 & NDCG@10 & \#Results \\
+\midrule
+1 & bm25 & 0.2000 & 0.4500 & 0.7500 & 0.8916 & 10 \\
+1 & structured & 0.0000 & 0.0000 & 0.0000 & 0.0000 & 10 \\
+\midrule
+2 & bm25 & 0.2000 & 0.4500 & 0.1944 & 0.6523 & 10 \\
+2 & structured & 1.0000 & 1.0000 & 1.0000 & 1.0000 & 10 \\
+2 & vsm & 0.2000 & 0.3000 & 0.3611 & 0.5993 & 10 \\
+\midrule
+3 & bm25 & 0.0000 & 0.0000 & 0.0000 & 0.0000 & 10 \\
+3 & structured & 1.0000 & 1.0000 & 1.0000 & 1.0000 & 10 \\
+3 & vsm & 0.2000 & 0.2000 & 0.3750 & 0.5803 & 10 \\
+\midrule
+4 & bm25 & 0.6000 & 0.8000 & 0.9762 & 0.9971 & 10 \\
+4 & vsm & 0.7000 & 0.8500 & 0.9094 & 0.9859 & 10 \\
+\midrule
+5 & bm25 & 0.4000 & 0.5000 & 0.4512 & 0.7813 & 10 \\
+5 & structured & 0.1000 & 0.5500 & 1.0000 & 1.0000 & 10 \\
+5 & vsm & 0.0000 & 0.2500 & 0.0000 & 0.8753 & 10 \\
+\midrule
+6 & bm25 & 0.2000 & 0.5000 & 0.2667 & 0.8352 & 10 \\
+6 & vsm & 0.1000 & 0.4500 & 0.1429 & 0.8345 & 10 \\
+\bottomrule
+\end{tabular}
+\end{table*}

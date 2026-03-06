@@ -1,0 +1,353 @@
+{
+  "1": {
+    "query_text": "to be, or not to be",
+    "models": {
+      "structured": {
+        "result_count": 100,
+        "top10_ids": [
+          "24890",
+          "28147",
+          "58018",
+          "13004",
+          "14985",
+          "16112",
+          "16560",
+          "19103",
+          "22914",
+          "23683"
+        ]
+      },
+      "vsm": {
+        "result_count": 0,
+        "top10_ids": []
+      },
+      "bm25": {
+        "result_count": 100,
+        "top10_ids": [
+          "100",
+          "10014",
+          "10341",
+          "10343",
+          "10357",
+          "10418",
+          "10421",
+          "10451",
+          "10491",
+          "10560"
+        ]
+      }
+    },
+    "pairwise": {
+      "structured_vs_vsm": {
+        "overlap": 0,
+        "jaccard": 0.0
+      },
+      "structured_vs_bm25": {
+        "overlap": 0,
+        "jaccard": 0.0
+      },
+      "vsm_vs_bm25": {
+        "overlap": 0,
+        "jaccard": 0.0
+      }
+    }
+  },
+  "2": {
+    "query_text": "English Grammar",
+    "models": {
+      "structured": {
+        "result_count": 100,
+        "top10_ids": [
+          "11615",
+          "14006",
+          "14070",
+          "17594",
+          "26991",
+          "30036",
+          "43397",
+          "44802",
+          "45814",
+          "48702"
+        ]
+      },
+      "vsm": {
+        "result_count": 100,
+        "top10_ids": [
+          "54324",
+          "45023",
+          "29163",
+          "11099",
+          "54663",
+          "54322",
+          "23765",
+          "25040",
+          "26991",
+          "47779"
+        ]
+      },
+      "bm25": {
+        "result_count": 100,
+        "top10_ids": [
+          "12735",
+          "37739",
+          "40617",
+          "31639",
+          "36553",
+          "11615",
+          "22307",
+          "70957",
+          "66712",
+          "38017"
+        ]
+      }
+    },
+    "pairwise": {
+      "structured_vs_vsm": {
+        "overlap": 1,
+        "jaccard": 0.0526
+      },
+      "structured_vs_bm25": {
+        "overlap": 1,
+        "jaccard": 0.0526
+      },
+      "vsm_vs_bm25": {
+        "overlap": 0,
+        "jaccard": 0.0
+      }
+    }
+  },
+  "3": {
+    "query_text": "Philip K Dick",
+    "models": {
+      "structured": {
+        "result_count": 100,
+        "top10_ids": [
+          "28554",
+          "28644",
+          "28698",
+          "28767",
+          "29132",
+          "30255",
+          "31516",
+          "32032",
+          "32154",
+          "32522"
+        ]
+      },
+      "vsm": {
+        "result_count": 100,
+        "top10_ids": [
+          "21399",
+          "28644",
+          "22427",
+          "30399",
+          "28125",
+          "16198",
+          "41369",
+          "31516",
+          "10742",
+          "32504"
+        ]
+      },
+      "bm25": {
+        "result_count": 100,
+        "top10_ids": [
+          "54993",
+          "10336",
+          "58237",
+          "58546",
+          "11825",
+          "11847",
+          "63066",
+          "11822",
+          "11850",
+          "11802"
+        ]
+      }
+    },
+    "pairwise": {
+      "structured_vs_vsm": {
+        "overlap": 2,
+        "jaccard": 0.1111
+      },
+      "structured_vs_bm25": {
+        "overlap": 0,
+        "jaccard": 0.0
+      },
+      "vsm_vs_bm25": {
+        "overlap": 0,
+        "jaccard": 0.0
+      }
+    }
+  },
+  "4": {
+    "query_text": "Jabberwocky",
+    "models": {
+      "structured": {
+        "result_count": 0,
+        "top10_ids": []
+      },
+      "vsm": {
+        "result_count": 43,
+        "top10_ids": [
+          "36308",
+          "20353",
+          "35418",
+          "70244",
+          "12",
+          "11483",
+          "9380",
+          "35688",
+          "30778",
+          "31034"
+        ]
+      },
+      "bm25": {
+        "result_count": 43,
+        "top10_ids": [
+          "9380",
+          "35418",
+          "36308",
+          "20353",
+          "11483",
+          "70244",
+          "12",
+          "31034",
+          "23545",
+          "30778"
+        ]
+      }
+    },
+    "pairwise": {
+      "structured_vs_vsm": {
+        "overlap": 0,
+        "jaccard": 0.0
+      },
+      "structured_vs_bm25": {
+        "overlap": 0,
+        "jaccard": 0.0
+      },
+      "vsm_vs_bm25": {
+        "overlap": 9,
+        "jaccard": 0.8182
+      }
+    }
+  },
+  "5": {
+    "query_text": "Gutenberg",
+    "models": {
+      "structured": {
+        "result_count": 100,
+        "top10_ids": [
+          "200",
+          "3432",
+          "3459",
+          "3471",
+          "3483",
+          "3493",
+          "3531",
+          "3542",
+          "3603",
+          "3617"
+        ]
+      },
+      "vsm": {
+        "result_count": 100,
+        "top10_ids": [
+          "29156",
+          "29434",
+          "672",
+          "15809",
+          "10469",
+          "33108",
+          "29430",
+          "29441",
+          "29459",
+          "7920"
+        ]
+      },
+      "bm25": {
+        "result_count": 100,
+        "top10_ids": [
+          "53561",
+          "71276",
+          "23618",
+          "34731",
+          "27046",
+          "27045",
+          "27039",
+          "51566",
+          "51565",
+          "51563"
+        ]
+      }
+    },
+    "pairwise": {
+      "structured_vs_vsm": {
+        "overlap": 0,
+        "jaccard": 0.0
+      },
+      "structured_vs_bm25": {
+        "overlap": 0,
+        "jaccard": 0.0
+      },
+      "vsm_vs_bm25": {
+        "overlap": 0,
+        "jaccard": 0.0
+      }
+    }
+  },
+  "6": {
+    "query_text": "Dornröschen",
+    "models": {
+      "structured": {
+        "result_count": 0,
+        "top10_ids": []
+      },
+      "vsm": {
+        "result_count": 81,
+        "top10_ids": [
+          "35116",
+          "30038",
+          "61708",
+          "62670",
+          "30269",
+          "19716",
+          "42900",
+          "28100",
+          "22160",
+          "39782"
+        ]
+      },
+      "bm25": {
+        "result_count": 81,
+        "top10_ids": [
+          "61708",
+          "28100",
+          "35116",
+          "62670",
+          "63465",
+          "42900",
+          "19716",
+          "30038",
+          "22160",
+          "35547"
+        ]
+      }
+    },
+    "pairwise": {
+      "structured_vs_vsm": {
+        "overlap": 0,
+        "jaccard": 0.0
+      },
+      "structured_vs_bm25": {
+        "overlap": 0,
+        "jaccard": 0.0
+      },
+      "vsm_vs_bm25": {
+        "overlap": 8,
+        "jaccard": 0.6667
+      }
+    }
+  }
+}

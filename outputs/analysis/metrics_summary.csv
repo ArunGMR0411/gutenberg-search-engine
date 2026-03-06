@@ -1,0 +1,4 @@
+model,mean_P@10,mean_P@10_partial,mean_AP@10,mean_NDCG@10,queries_judged
+structured,0.5250,0.6375,0.7500,0.7500,4
+vsm,0.2400,0.4100,0.3577,0.7751,5
+bm25,0.2667,0.4500,0.4398,0.6929,6

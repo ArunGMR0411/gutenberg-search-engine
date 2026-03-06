@@ -1,0 +1,19 @@
+query_nr,query_text,model_1,model_2,result_count_1,result_count_2,overlap_top10,jaccard_top10
+1,"to be, or not to be",structured,vsm,100,0,0,0.0000
+1,"to be, or not to be",structured,bm25,100,100,0,0.0000
+1,"to be, or not to be",vsm,bm25,0,100,0,0.0000
+2,English Grammar,structured,vsm,100,100,1,0.0526
+2,English Grammar,structured,bm25,100,100,1,0.0526
+2,English Grammar,vsm,bm25,100,100,0,0.0000
+3,Philip K Dick,structured,vsm,100,100,2,0.1111
+3,Philip K Dick,structured,bm25,100,100,0,0.0000
+3,Philip K Dick,vsm,bm25,100,100,0,0.0000
+4,Jabberwocky,structured,vsm,0,43,0,0.0000
+4,Jabberwocky,structured,bm25,0,43,0,0.0000
+4,Jabberwocky,vsm,bm25,43,43,9,0.8182
+5,Gutenberg,structured,vsm,100,100,0,0.0000
+5,Gutenberg,structured,bm25,100,100,0,0.0000
+5,Gutenberg,vsm,bm25,100,100,0,0.0000
+6,Dornröschen,structured,vsm,0,81,0,0.0000
+6,Dornröschen,structured,bm25,0,81,0,0.0000
+6,Dornröschen,vsm,bm25,81,81,8,0.6667

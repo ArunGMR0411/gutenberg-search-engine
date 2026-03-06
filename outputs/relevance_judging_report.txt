@@ -1,0 +1,250 @@
+==================================================================================================================================
+RELEVANCE JUDGING REPORT — Top-10 Results from Full-Corpus Retrieval
+Generated for manual relevance assessment
+==================================================================================================================================
+
+##################################################################################################################################
+  Q1: "to be, or not to be"
+##################################################################################################################################
+
+  === 1_structured.tsv (STRUCTURED) ===
+  Rank  GID      Score          Title                                                        Snippet (first 120 chars)
+  ----- -------- -------------- ------------------------------------------------------------ ------------------------------------------------------------
+  1     24890    8.000000       The prophete Ionas with an introduccion  before teachinge    ﻿The Project Gutenberg eBook of The prophete Ionas with an introduccion This ebook is for the use of anyone anywhere in 
+  2     28147    8.000000       Letters on the Cholera Morbus. Containing ample evidence     ﻿The Project Gutenberg eBook of Letters on the Cholera Morbus This ebook is for the use of anyone anywhere in the United
+  3     58018    8.000000       The Rod in Pickle; or, An Answer to the Appeal of John Ch    ﻿The Project Gutenberg eBook of The Rod in Pickle; or, An Answer to the Appeal of John Church, the Obelisk Preacher This
+  4     13004    6.000000       More Goops and How Not to Be Them: A Manual of Manners fo    ﻿The Project Gutenberg eBook of More Goops and How Not to Be Them: A Manual of Manners for Impolite Infants This ebook i
+  5     14985    6.000000       Valere Aude: Dare to Be Healthy, Or, The Light of Physica    ﻿The Project Gutenberg eBook of Valere Aude: Dare to Be Healthy, Or, The Light of Physical Regeneration This ebook is fo
+  6     16112    6.000000       Edward Barnett, a Neglected Child of South Carolina, Who     ﻿The Project Gutenberg eBook of Edward Barnett, a Neglected Child of South Carolina, Who Rose to Be a Peer of Great Brit
+  7     16560    6.000000       The Diving Bell; Or, Pearls to be Sought for                 ﻿The Project Gutenberg eBook of The Diving Bell; Or, Pearls to be Sought for This ebook is for the use of anyone anywher
+  8     19103    6.000000       The discovery of a world in the moone : $b or, A discovrs    ﻿The Project Gutenberg eBook of The discovery of a world in the moone This ebook is for the use of anyone anywhere in th
+  9     22914    6.000000       The Sceptical Chymist or Chymico-Physical Doubts & Parado    ﻿The Project Gutenberg eBook of The Sceptical Chymist This ebook is for the use of anyone anywhere in the United States 
+  10    23683    6.000000       Bertie's Home; or, the Way to be Happy                       ﻿The Project Gutenberg eBook of Bertie's Home; or, the Way to be Happy This ebook is for the use of anyone anywhere in t
+
+  --- 1_vsm.tsv: EMPTY (no results) ---
+
+  === 1_bm25.tsv (BM25) ===
+  Rank  GID      Score          Title                                                        Snippet (first 120 chars)
+  ----- -------- -------------- ------------------------------------------------------------ ------------------------------------------------------------
+  1     100      5.000000       The Complete Works of William Shakespeare                    ﻿The Project Gutenberg eBook of The Complete Works of William Shakespeare This ebook is for the use of anyone anywhere i
+  2     10014    5.000000       Punchinello, Volume 1, No. 18, July 30, 1870                 ﻿The Project Gutenberg eBook of Punchinello, Volume 1, No. 18, July 30, 1870 This ebook is for the use of anyone anywher
+  3     10341    5.000000       The Great Events by Famous Historians, Volume 21 The Rece    ﻿The Project Gutenberg eBook of The Great Events by Famous Historians, Volume 21 This ebook is for the use of anyone any
+  4     10343    5.000000       The Works of Charles and Mary Lamb — Volume 2  Elia and T    ﻿The Project Gutenberg eBook of The Works of Charles and Mary Lamb — Volume 2 This ebook is for the use of anyone anywhe
+  5     10357    5.000000       Life of Johnson, Volume 4  1780-1784                         ﻿The Project Gutenberg eBook of Life of Johnson, Volume 4 This ebook is for the use of anyone anywhere in the United Sta
+  6     10418    5.000000       The Money Moon: A Romance                                    ﻿The Project Gutenberg eBook of The Money Moon: A Romance This ebook is for the use of anyone anywhere in the United Sta
+  7     10421    5.000000       The Life of Lord Byron                                       ﻿The Project Gutenberg eBook of The Life of Lord Byron This ebook is for the use of anyone anywhere in the United States
+  8     10451    5.000000       Life of Johnson, Volume 5  Tour to the Hebrides (1773) an    ﻿The Project Gutenberg eBook of Life of Johnson, Volume 5 This ebook is for the use of anyone anywhere in the United Sta
+  9     10491    5.000000       Practice Book, Leland Powers School                          ﻿The Project Gutenberg eBook of Practice Book, Leland Powers School This ebook is for the use of anyone anywhere in the 
+  10    10560    5.000000       The Last of the Foresters  Or, Humors on the Border; A st    ﻿The Project Gutenberg eBook of The Last of the Foresters This ebook is for the use of anyone anywhere in the United Sta
+
+
+##################################################################################################################################
+  Q2: "English Grammar"
+##################################################################################################################################
+
+  === 2_structured.tsv (STRUCTURED) ===
+  Rank  GID      Score          Title                                                        Snippet (first 120 chars)
+  ----- -------- -------------- ------------------------------------------------------------ ------------------------------------------------------------
+  1     11615    14.000000      The Grammar of English Grammars                              ﻿The Project Gutenberg eBook of The Grammar of English Grammars This ebook is for the use of anyone anywhere in the Unit
+  2     14006    14.000000      An English Grammar                                           ﻿The Project Gutenberg eBook of An English Grammar This ebook is for the use of anyone anywhere in the United States and
+  3     14070    14.000000      English Grammar in Familiar Lectures  Accompanied by a co    ﻿The Project Gutenberg eBook of English Grammar in Familiar Lectures This ebook is for the use of anyone anywhere in the
+  4     17594    14.000000      Lectures on Language, as Particularly Connected with Engl    ﻿The Project Gutenberg eBook of Lectures on Language, as Particularly Connected with English Grammar This ebook is for t
+  5     26991    14.000000      A Short System of English Grammar For the Use of the Boar    ﻿The Project Gutenberg eBook of A Short System of English Grammar This ebook is for the use of anyone anywhere in the Un
+  6     30036    14.000000      Word Study and English Grammar A Primer of Information ab    ﻿The Project Gutenberg eBook of Word Study and English Grammar This ebook is for the use of anyone anywhere in the Unite
+  7     43397    14.000000      The Comic English Grammar: A New and Facetious Introducti    ﻿The Project Gutenberg eBook of The Comic English Grammar: A New and Facetious Introduction to the English Tongue This e
+  8     44802    14.000000      The Comic English Grammar: A New And Facetious Introducti    ﻿The Project Gutenberg eBook of The Comic English Grammar: A New And Facetious Introduction To The English Tongue This e
+  9     45814    14.000000      An Advanced English Grammar with Exercises                   ﻿The Project Gutenberg eBook of An Advanced English Grammar with Exercises This ebook is for the use of anyone anywhere 
+  10    48702    14.000000      English Grammar and Composition for Public Schools           ﻿The Project Gutenberg eBook of English Grammar and Composition for Public Schools This ebook is for the use of anyone a
+
+  === 2_vsm.tsv (VSM) ===
+  Rank  GID      Score          Title                                                        Snippet (first 120 chars)
+  ----- -------- -------------- ------------------------------------------------------------ ------------------------------------------------------------
+  1     54324    0.118385       Stratford-on-Avon: A Sketch-Book                             4 The Birthplace. 5 The Birth Room in Shakespeare's House. 6 The Guild Hall & Grammar School. 7 The Site of New Place & 
+  2     45023    0.118105       The Pictorial Grammar                                        ﻿The Project Gutenberg eBook of The Pictorial Grammar This ebook is for the use of anyone anywhere in the United States 
+  3     29163    0.082691       The Aural System  Being the Most Direct, the Straight-Lin    e writer ventures to recommend the way he himself took when a boy to solve this question_. _Having made choice of a know
+  4     11099    0.078285       More Seeds of Knowledge; Or, Another Peep at Charles         the sums were wrong: however, I am happy to say that did not happen very often. Besides all these things, Charles learne
+  5     54663    0.076978       Catalogue of Rudimentary, Scientific, Educational, and Cl    1_s._ 20, 21. PERSPECTIVE, by George Pyne, 2 vols. in 1 2_s._ 27, 28. PAINTING, The Art of; or, A GRAMMAR OF COLOURING, 
+  6     54322    0.072963       Norwich: A Sketch Book                                       HE APSE. CATHEDRAL. 4 PRIOR'S DOOR. CLOISTERS. 5 THE ETHELBERT GATE. 6 GRAMMAR SCHOOL GATEWAY. 7 HOUSES IN THE CLOSE. 8 
+  7     23765    0.069780       Captain Boldheart & the Latin-Grammar Master A Holiday Ro    ﻿The Project Gutenberg eBook of Captain Boldheart & the Latin-Grammar Master This ebook is for the use of anyone anywher
+  8     25040    0.069194       Bilingualism: Address delivered before the Quebec Canadia    e French language as a subject of study was confined to begin with to the elementary subjects of reading, composition an
+  9     26991    0.068169       A Short System of English Grammar For the Use of the Boar    ﻿The Project Gutenberg eBook of A Short System of English Grammar This ebook is for the use of anyone anywhere in the Un
+  10    47779    0.061051       A List of Educational Works Published by Methuen & Compan    of public and private schools, including Eton, Harrow, Winchester, Repton, Cheltenham, Sherborne, Haileybury, Manchester
+
+  === 2_bm25.tsv (BM25) ===
+  Rank  GID      Score          Title                                                        Snippet (first 120 chars)
+  ----- -------- -------------- ------------------------------------------------------------ ------------------------------------------------------------
+  1     12735    3.306138       The Grammar School Boys in Summer Athletics                  ﻿The Project Gutenberg eBook of The Grammar School Boys in Summer Athletics This ebook is for the use of anyone anywhere
+  2     37739    3.304690       Egerton Ryerson and Education in Upper Canada                o so would require a complete volume. But, as University education prior to 1844 was so closely connected with Common an
+  3     40617    3.304675       The Teaching and Cultivation of the French Language in En    PAGE THE THIRTEENTH AND FOURTEENTH CENTURIES 3 French grammars in mediaeval England--The use of the French language--Lat
+  4     31639    3.302723       Complete Classified Price List of School & College Textbo    .50 Intermediate Reader .60 Grammar School Reader .80 =Monroe's= First Reader
+  5     36553    3.300864       Education in England in the Middle Ages Thesis Approved f    e not destined for the monastic life could also be received in these schools.[10] In addition to teaching the elements o
+  6     11615    3.298211       The Grammar of English Grammars                              ﻿The Project Gutenberg eBook of The Grammar of English Grammars This ebook is for the use of anyone anywhere in the Unit
+  7     22307    3.295659       The Grammar School Boys of Gridley; or, Dick & Co. Start     ﻿The Project Gutenberg eBook of The Grammar School Boys of Gridley; or, Dick & Co. Start Things Moving This ebook is for
+  8     70957    3.295011       The treasury of languages : $b A rudimentary dictionary o    Dr. Latham finds no Australian dialects resemble those of the Asiatic Isles. Mr. Norris first detected similarity of the
+  9     66712    3.294109       Grammar-land; Or, Grammar in Fun for the Children of Scho    ﻿The Project Gutenberg eBook of Grammar-land; Or, Grammar in Fun for the Children of Schoolroom-shire This ebook is for 
+  10    38017    3.293854       Schools, School-Books and Schoolmasters  A Contribution t    , waiting on their clients or receiving them at their own places of business. The youth of family who had passed from th
+
+
+##################################################################################################################################
+  Q3: "Philip K Dick"
+##################################################################################################################################
+
+  === 3_structured.tsv (STRUCTURED) ===
+  Rank  GID      Score          Title                                                        Snippet (first 120 chars)
+  ----- -------- -------------- ------------------------------------------------------------ ------------------------------------------------------------
+  1     28554    8.000000       Beyond Lies the Wub                                          eck the laws of the country where you are located before using this eBook. Title: Beyond Lies the Wub Author: Philip K. 
+  2     28644    8.000000       Beyond the Door                                              o check the laws of the country where you are located before using this eBook. Title: Beyond the Door Author: Philip K. 
+  3     28698    8.000000       The Crystal Crypt                                            check the laws of the country where you are located before using this eBook. Title: The Crystal Crypt Author: Philip K. 
+  4     28767    8.000000       The Defenders                                                to check the laws of the country where you are located before using this eBook. Title: The Defenders Author: Philip K. D
+  5     29132    8.000000       The Gun                                                      l have to check the laws of the country where you are located before using this eBook. Title: The Gun Author: Philip K. 
+  6     30255    8.000000       The Skull                                                    have to check the laws of the country where you are located before using this eBook. Title: The Skull Author: Philip K. 
+  7     31516    8.000000       The Eyes Have It                                             check the laws of the country where you are located before using this eBook. Title: The Eyes Have It Author: Philip K. D
+  8     32032    8.000000       Second Variety                                               to check the laws of the country where you are located before using this eBook. Title: Second Variety Author: Philip K. 
+  9     32154    8.000000       The Variable Man                                             check the laws of the country where you are located before using this eBook. Title: The Variable Man Author: Philip K. D
+  10    32522    8.000000       Mr. Spaceship                                                to check the laws of the country where you are located before using this eBook. Title: Mr. Spaceship Author: Philip K. D
+
+  === 3_vsm.tsv (VSM) ===
+  Rank  GID      Score          Title                                                        Snippet (first 120 chars)
+  ----- -------- -------------- ------------------------------------------------------------ ------------------------------------------------------------
+  1     21399    0.124450       Dick and His Cat An Old Tale in a New Garb                   ﻿The Project Gutenberg eBook of Dick and His Cat This ebook is for the use of anyone anywhere in the United States and m
+  2     28644    0.078389       Beyond the Door                                              o check the laws of the country where you are located before using this eBook. Title: Beyond the Door Author: Philip K. 
+  3     22427    0.074474       One Thousand and One Initial Letters                         ﻿The Project Gutenberg eBook of One Thousand and One Initial Letters This ebook is for the use of anyone anywhere in the
+  4     30399    0.072382       Pythias                                                      , he spent the next whole day in a stupor. I called on him the next night. He was glad to see me. "That was a close one,
+  5     28125    0.072202       Dear Santa Claus                                             next time we'll see some really-truly fairies. _--Fannie E. Ostrander._ [Illustration] [Illustration] Kate and Dick had 
+  6     16198    0.071481       Her own way : $b A play in four acts                         zie and Moles talking about Aunt Georgiana's beau! LIZZIE. Sh! [FOOTMAN _goes out with the croquette dish._ ELAINE. Mr. 
+  7     41369    0.067671       In Honour Bound: An Original Play, in One Act.  (Suggeste    gement of Mr. Edgar Bruce, 25th September, 1880._ CHARACTERS. Sir George Carlyon, Q.C., M.P. MR. EDGAR BRUCE. Philip Gra
+  8     31516    0.065128       The Eyes Have It                                             check the laws of the country where you are located before using this eBook. Title: The Eyes Have It Author: Philip K. D
+  9     10742    0.063262       The Picture Alphabet                                         ﻿The Project Gutenberg eBook of The Picture Alphabet This ebook is for the use of anyone anywhere in the United States a
+  10    32504    0.063069       All About the Three Little Pigs                              y where you are located before using this eBook. Title: All About the Three Little Pigs Author: Anonymous Illustrator: D
+
+  === 3_bm25.tsv (BM25) ===
+  Rank  GID      Score          Title                                                        Snippet (first 120 chars)
+  ----- -------- -------------- ------------------------------------------------------------ ------------------------------------------------------------
+  1     54993    8.247995       The Beadle Collection of Dime Novels Given to the New Yor    personages. Among these books the visitor will find “Mad Anthony’s Scouts,” by Rodman; Whittaker’s “Boone the Hunter” an
+  2     10336    8.084267       A Select Collection of Old English Plays, Volume 07          RY WOMEN OF ABINGTON. _EDITION. The Pleasant Historie of the two angrie women of Abington. With the humorous mirthe of D
+  3     58237    8.058738       Motion pictures, 1940-1949 : $b Catalog of copyright entr    ictor Young; film editor, Warren Low. Cast: Loretta Young, Robert Cummings, Wendell Corey, Sam Jaffe, Douglas Dick. © Pa
+  4     58546    8.054274       Christmas Candles: Plays for Boys and Girls                  g: 1st. A winter street-scene. 2nd. Simple interior. Time of playing: 35 minutes. Dick and Dot, a lonely little brother 
+  5     11825    8.014496       U.S. Copyright Renewals, 1962 January - June                 12Jan62; R288876. BROMLEY, DOROTHY DUNBAR. Birth control, its use and misuse. With an introd. by Robert Laton Dickinson.
+  6     11847    8.013072       U.S. Copyright Renewals, 1973 January - June                 Myrtle. (In Virginia quarterly review, spring 1946) © 20Mar46; B11897. Conrad Aiken (A); 21May73; R552817. Dickinson sca
+  7     63066    7.988098       Motion pictures and filmstrips, January-June 1971 : $b Ca    roducer, R. A. Cinader; director, Hollingsworth Morse; writer, Preston Wood. Cast: Martin Milner, Kent McCord, Dick Fora
+  8     11822    7.966336       U.S. Copyright Renewals, 1960 July - December                from variant forms of names are interfiled. ABBOTT, ALLAN. SEE Columbia Poetry, 1933. ABBOTT, JANE LUDLOW DRAKE. Dicket,
+  9     11850    7.950755       U.S. Copyright Renewals, 1974 July - December                A14784. Scott, Foresman and Company (PWH); 26Aug74; R584083. <pb id='361.png' n='1974_h2/A/5585' /> R584084. Fun with Di
+  10    11802    7.936915       U.S. Copyright Renewals, 1950 July - December                20Dec50, Loew's inc. (PWH) ALLEN, Hervey. SEE Carolina chansons. R70165. ALLINGHAM, Margery. SEE Blackerchief Dick. A ta
+
+
+##################################################################################################################################
+  Q4: "Jabberwocky"
+##################################################################################################################################
+
+  --- 4_structured.tsv: EMPTY (no results) ---
+
+  === 4_vsm.tsv (VSM) ===
+  Rank  GID      Score          Title                                                        Snippet (first 120 chars)
+  ----- -------- -------------- ------------------------------------------------------------ ------------------------------------------------------------
+  1     36308    0.108830       Songs From Alice in Wonderland and Through the Looking-Gl    24 WHO STOLE THE TARTS? 25 SONGS FROM THROUGH THE LOOKING-GLASS. JABBERWOCKY 29 TWEEDLEDUM AND TWEEDLEDEE 31 THE WA
+  2     20353    0.062657       The Best Nonsense Verses                                     penter Lewis Carroll 9 The Hunting of the Snark, Extracts Lewis Carroll 14 Jabberwocky Lewis Carroll 19 The Jumblies Edw
+  3     35418    0.058332       Lewis Carroll in Wonderland and at Home: The Story of His    gh to read the book themselves soon knew by heart all the fascinating poetry, and if the story had no other merit, "The 
+  4     70244    0.054539       Deems Taylor                                                 alking to.” The music reflects the brisk chatter of the garden folk: [Music: Allegro 3 Flutes] The second movement, _Jab
+  5     12       0.052926       Through the Looking-Glass                                    ourse! And if I hold it up to a glass, the words will all go the right way again.” This was the poem that Alice read. JA
+  6     11483    0.045083       The Life and Letters of Lewis Carroll (Rev. C. L. Dodgson    ewis Carroll's rooms at Christ Church--"Phantasmagoria"--Translations of "Alice"--"Through the Looking-Glass"--"Jabberwo
+  7     9380     0.043790       A Nonsense Anthology                                         onsense Anthology Collected by Carolyn Wells 1910 TO GELETT BURGESS A NONSENSE LOVER CONTENTS INTRODUCTION JABBERWOCKY L
+  8     35688    0.038631       Alice in Wonderland  A Dramatization of Lewis Carroll's "    hy, it's a looking-glass book, of course! And if I hold it up to a glass, the words will all go the right way again. JAB
+  9     30778    0.038062       Rhymes and Meters A Practical Manual for Versifiers          ssing from the work of Lear we come to Lewis Carroll's verse in "Alice in Wonderland." Nothing of its kind better than "
+  10    31034    0.036324       By-ways in Book-land: Short Essays on Literary Subjects      r midst. And of these, of course, Mr. Lewis Carroll is obviously _facile princeps_--not only by reason of the immortal '
+
+  === 4_bm25.tsv (BM25) ===
+  Rank  GID      Score          Title                                                        Snippet (first 120 chars)
+  ----- -------- -------------- ------------------------------------------------------------ ------------------------------------------------------------
+  1     9380     14.489210      A Nonsense Anthology                                         onsense Anthology Collected by Carolyn Wells 1910 TO GELETT BURGESS A NONSENSE LOVER CONTENTS INTRODUCTION JABBERWOCKY L
+  2     35418    14.198317      Lewis Carroll in Wonderland and at Home: The Story of His    gh to read the book themselves soon knew by heart all the fascinating poetry, and if the story had no other merit, "The 
+  3     36308    13.841195      Songs From Alice in Wonderland and Through the Looking-Gl    24 WHO STOLE THE TARTS? 25 SONGS FROM THROUGH THE LOOKING-GLASS. JABBERWOCKY 29 TWEEDLEDUM AND TWEEDLEDEE 31 THE WA
+  4     20353    13.463243      The Best Nonsense Verses                                     penter Lewis Carroll 9 The Hunting of the Snark, Extracts Lewis Carroll 14 Jabberwocky Lewis Carroll 19 The Jumblies Edw
+  5     11483    13.384960      The Life and Letters of Lewis Carroll (Rev. C. L. Dodgson    ewis Carroll's rooms at Christ Church--"Phantasmagoria"--Translations of "Alice"--"Through the Looking-Glass"--"Jabberwo
+  6     70244    13.251693      Deems Taylor                                                 alking to.” The music reflects the brisk chatter of the garden folk: [Music: Allegro 3 Flutes] The second movement, _Jab
+  7     12       11.868392      Through the Looking-Glass                                    ourse! And if I hold it up to a glass, the words will all go the right way again.” This was the poem that Alice read. JA
+  8     31034    11.466237      By-ways in Book-land: Short Essays on Literary Subjects      r midst. And of these, of course, Mr. Lewis Carroll is obviously _facile princeps_--not only by reason of the immortal '
+  9     23545    11.119688      Songs of Childhood                                           as a travesty or burlesque of something very edgy indeed. Thus, Lear's "The Dong with the Luminous Nose" and Carroll's "
+  10    30778    11.036535      Rhymes and Meters A Practical Manual for Versifiers          ssing from the work of Lear we come to Lewis Carroll's verse in "Alice in Wonderland." Nothing of its kind better than "
+
+
+##################################################################################################################################
+  Q5: "Gutenberg"
+##################################################################################################################################
+
+  === 5_structured.tsv (STRUCTURED) ===
+  Rank  GID      Score          Title                                                        Snippet (first 120 chars)
+  ----- -------- -------------- ------------------------------------------------------------ ------------------------------------------------------------
+  1     200      13.000000      The Project Gutenberg Encyclopedia, Volume 1 of 28           ﻿The Project Gutenberg eBook of The Project Gutenberg Encyclopedia, Volume 1 of 28 This ebook is for the use of anyone a
+  2     3432     13.000000      Quotations from the Project Gutenberg Editions of the Wor    ﻿The Project Gutenberg eBook of Quotations from the Project Gutenberg Editions of the Works of Mark Twain This ebook is 
+  3     3459     13.000000      Quotations from the Project Gutenberg Editions of the Wor    ﻿The Project Gutenberg eBook of Quotations from the Project Gutenberg Editions of the Works of John Galsworthy This eboo
+  4     3471     13.000000      Quotations from the Project Gutenberg Editions of the Wor    ﻿The Project Gutenberg eBook of Quotations from the Project Gutenberg Editions of the Works of Charles Dudley Warner Thi
+  5     3483     13.000000      Widger's Quotations from the Project Gutenberg Editions o    ﻿The Project Gutenberg eBook of Widger's Quotations from the Project Gutenberg Editions of the Works of William Dean How
+  6     3493     13.000000      Widger's Quotations from the Project Gutenberg Editions o    ﻿The Project Gutenberg eBook of Widger's Quotations from the Project Gutenberg Editions of the Works of Oliver W. Holmes
+  7     3531     13.000000      Widger's Quotations from the Project Gutenberg Editions o    ﻿The Project Gutenberg eBook of Widger's Quotations from the Project Gutenberg Editions of the Works of Lord Chesterfiel
+  8     3542     13.000000      Widger's Quotations from the Project Gutenberg Editions o    ﻿The Project Gutenberg eBook of Widger's Quotations from the Project Gutenberg Editions of the Works of Jacques Casanova
+  9     3603     13.000000      Widger's Quotations from the Project Gutenberg Editions o    ﻿The Project Gutenberg eBook of Widger's Quotations from the Project Gutenberg Editions of the Works of Guy de Maupassan
+  10    3617     13.000000      Widger's Quotations from the Project Gutenberg Editions o    ﻿The Project Gutenberg eBook of Widger's Quotations from the Project Gutenberg Editions of Dumas' Celebrated Crimes This
+
+  === 5_vsm.tsv (VSM) ===
+  Rank  GID      Score          Title                                                        Snippet (first 120 chars)
+  ----- -------- -------------- ------------------------------------------------------------ ------------------------------------------------------------
+  1     29156    0.173245       The Project Gutenberg Works of Joseph Conrad: An Index       ﻿The Project Gutenberg eBook of The Project Gutenberg Works of Joseph Conrad: An Index This ebook is for the use of anyo
+  2     29434    0.171205       The Project Gutenberg Works of Flavius Josephus: An Index    ﻿The Project Gutenberg eBook of The Project Gutenberg Works of Flavius Josephus: An Index This ebook is for the use of a
+  3     672      0.167207       The Secret Guide to Computers                                ﻿The Project Gutenberg eBook of The Secret Guide to Computers This ebook is for the use of anyone anywhere in the United
+  4     15809    0.154834       A Apple Pie                                                  ﻿The Project Gutenberg eBook of A Apple Pie This ebook is for the use of anyone anywhere in the United States and most o
+  5     10469    0.150896       Johnny Crow's Garden                                         ﻿The Project Gutenberg eBook of Johnny Crow's Garden This ebook is for the use of anyone anywhere in the United States a
+  6     33108    0.149544       Souvenir of Gay Head: Indelible Photographs                  ﻿The Project Gutenberg eBook of Souvenir of Gay Head: Indelible Photographs This ebook is for the use of anyone anywhere
+  7     29430    0.148668       The Project Gutenberg Works of Hall Caine: An Index          ﻿The Project Gutenberg eBook of The Project Gutenberg Works of Hall Caine: An Index This ebook is for the use of anyone 
+  8     29441    0.146940       The Project Gutenberg Works of Plato: An Index               ﻿The Project Gutenberg eBook of The Project Gutenberg Works of Plato: An Index This ebook is for the use of anyone anywh
+  9     29459    0.139854       The Project Gutenberg Works of Xenophon: An Index            ﻿The Project Gutenberg eBook of The Project Gutenberg Works of Xenophon: An Index This ebook is for the use of anyone an
+  10    7920     0.136849       American Historical and Literary Curiosities, Part 20        ﻿The Project Gutenberg eBook of American Historical and Literary Curiosities, Part 20 This ebook is for the use of anyon
+
+  === 5_bm25.tsv (BM25) ===
+  Rank  GID      Score          Title                                                        Snippet (first 120 chars)
+  ----- -------- -------------- ------------------------------------------------------------ ------------------------------------------------------------
+  1     53561    4.875822       Drawing for Printers.  A practical treatise on the art of    ﻿The Project Gutenberg eBook of Drawing for Printers This ebook is for the use of anyone anywhere in the United States a
+  2     71276    4.769081       The book of antelopes, vol. 4 (of 4)                         ﻿The Project Gutenberg eBook of The book of antelopes, vol. 4 (of 4) This ebook is for the use of anyone anywhere in the
+  3     23618    4.763595       Gutenberg, pièce historique en 5 actes, 8 tableaux           ﻿The Project Gutenberg eBook of Gutenberg, pièce historique en 5 actes, 8 tableaux This ebook is for the use of anyone a
+  4     34731    4.760962       40 years / 40 años / 40 ans                                  ﻿The Project Gutenberg eBook of 40 years / 40 años / 40 ans This ebook is for the use of anyone anywhere in the United S
+  5     27046    4.755653       Le Projet Gutenberg (1971-2008)                              ﻿The Project Gutenberg eBook of Le Projet Gutenberg (1971-2008) This ebook is for the use of anyone anywhere in the Unit
+  6     27045    4.755539       Project Gutenberg (1971-2008)                                ﻿The Project Gutenberg eBook of Project Gutenberg (1971-2008) This ebook is for the use of anyone anywhere in the United
+  7     27039    4.754429       Project Gutenberg (1971-2005)                                ﻿The Project Gutenberg eBook of Project Gutenberg (1971-2005) This ebook is for the use of anyone anywhere in the United
+  8     51566    4.753793       The Admirable Crichton                                       ﻿The Project Gutenberg eBook, The Admirable Crichton, by J.M. Barrie, Edited by Temi Rose This eBook is for the use of a
+  9     51565    4.753767       Major Barbara                                                ﻿The Project Gutenberg eBook, Major Barbara, by George Bernard Shaw, Edited by Temi Rose This eBook is for the use of an
+  10    51563    4.753755       A Woman of No Importance                                     ﻿The Project Gutenberg eBook, A Woman of No Importance, by Oscar Wilde, Edited by Temi Rose This eBook is for the use of
+
+
+##################################################################################################################################
+  Q6: "Dornröschen"
+##################################################################################################################################
+
+  --- 6_structured.tsv: EMPTY (no results) ---
+
+  === 6_vsm.tsv (VSM) ===
+  Rank  GID      Score          Title                                                        Snippet (first 120 chars)
+  ----- -------- -------------- ------------------------------------------------------------ ------------------------------------------------------------
+  1     35116    0.073066       Saint Michael: A Romance                                     midst of the green waving forest, in those ancient ruin? where all around was blooming fair and fresh, with the little D
+  2     30038    0.065361       A line-o'-verse or two                                       But still the nerve of memory tingles. And here you're writing Beauty Hints, And I these jingles. DORNRÖSCHEN In the gre
+  3     61708    0.050993       Madonna: Novellen                                            ing schwerfällig und langsam von statten. Die übermüdeten Arbeiter schwatzten viel und tranken noch mehr, um sich wach z
+  4     62670    0.046764       Landschaften                                                 r sich miterfreuen kann. Märchen und Sagen Nr. 1. =Dornröschen=, gez. v. J. Diez, München Nr. 2. =Marienkind=, gez. von 
+  5     30269    0.042959       My Autobiography: A Fragment                                 nd the real world, would often set children musing on what ought and what ought not to be. They did not long believe in 
+  6     19716    0.037480       Hundert neue Rätsel                                          Die Feige. 3. Dornröschen. 4. Das Kätzchen. 5. Immergrün -- Immer grün. 6. Arbeitsknäuel. 7. Die Uhr. 8. Handschuh. 9. M
+  7     42900    0.035474       Gänsemütterchens Märchen                                     Aschenputtel Riquet mit dem Schopf Jungfer Eselshaut Dornröschen Übersetzung nach der ersten Buchausgabe von 1697. [Illu
+  8     28100    0.032669       Heilige Zeiten Weihnachtsblätter                             s Held, zuletzt als Märchenprinz. So kann nun jeder deutsche Mann, der ein Weib erwirbt, als Gott, als Held, als Märchen
+  9     22160    0.031997       Studien und Plaudereien. First Series                        ........................ 97 {Section VI.} Der Soldat, der Ritter etc....................... 109 {Section VII.} Musik, Do
+  10    39782    0.030066       Brownies and Bogles                                          was almost always perverse enough to bestow and foretell something unfortunate. You all know Grimm's beautiful tale of D
+
+  === 6_bm25.tsv (BM25) ===
+  Rank  GID      Score          Title                                                        Snippet (first 120 chars)
+  ----- -------- -------------- ------------------------------------------------------------ ------------------------------------------------------------
+  1     61708    28.276087      Madonna: Novellen                                            ing schwerfällig und langsam von statten. Die übermüdeten Arbeiter schwatzten viel und tranken noch mehr, um sich wach z
+  2     28100    25.458070      Heilige Zeiten Weihnachtsblätter                             s Held, zuletzt als Märchenprinz. So kann nun jeder deutsche Mann, der ein Weib erwirbt, als Gott, als Held, als Märchen
+  3     35116    25.452096      Saint Michael: A Romance                                     midst of the green waving forest, in those ancient ruin? where all around was blooming fair and fresh, with the little D
+  4     62670    25.170943      Landschaften                                                 r sich miterfreuen kann. Märchen und Sagen Nr. 1. =Dornröschen=, gez. v. J. Diez, München Nr. 2. =Marienkind=, gez. von 
+  5     63465    25.132683      Ludwig Bechsteins Märchenbuch Mit 176 Holzschnitten nach     ochen hatte. Sie konnte zwar das, was einmal eine weise Frau gedroht hatte, nicht abändern, aber ihm doch eine mildernde
+  6     42900    24.751731      Gänsemütterchens Märchen                                     Aschenputtel Riquet mit dem Schopf Jungfer Eselshaut Dornröschen Übersetzung nach der ersten Buchausgabe von 1697. [Illu
+  7     19716    24.583425      Hundert neue Rätsel                                          Die Feige. 3. Dornröschen. 4. Das Kätzchen. 5. Immergrün -- Immer grün. 6. Arbeitsknäuel. 7. Die Uhr. 8. Handschuh. 9. M
+  8     30038    23.890626      A line-o'-verse or two                                       But still the nerve of memory tingles. And here you're writing Beauty Hints, And I these jingles. DORNRÖSCHEN In the gre
+  9     22160    23.386960      Studien und Plaudereien. First Series                        ........................ 97 {Section VI.} Der Soldat, der Ritter etc....................... 109 {Section VII.} Musik, Do
+  10    35547    22.994454      Das Buch von Monelle                                         , so mache ich das Dornröschen im Schloß, und du kommst mich aufwecken. Du mußt mich sehr stark küssen. Die Prinzen küss
+

@@ -1,0 +1,109 @@
+query,model,elapsed_ms,topk,candidates_scored,phrase_fallback
+"to be, or not to be",structured,122.78,100,100,False
+"to be, or not to be",vsm,0.28,0,0,False
+"to be, or not to be",bm25,0.43,0,0,True
+English Grammar,structured,11.36,100,100,False
+English Grammar,vsm,85.51,100,100,False
+English Grammar,bm25,14.32,100,100,False
+Philip K Dick,structured,8.68,100,100,False
+Philip K Dick,vsm,46.48,100,100,False
+Philip K Dick,bm25,46.69,100,100,False
+Jabberwocky,structured,0.02,0,0,False
+Jabberwocky,vsm,0.25,43,43,False
+Jabberwocky,bm25,0.42,43,43,False
+Gutenberg,structured,3.14,100,100,False
+Gutenberg,vsm,8.49,100,100,False
+Gutenberg,bm25,9.20,100,100,False
+Dornröschen,structured,783.20,0,0,False
+Dornröschen,vsm,0.36,81,81,False
+Dornröschen,bm25,0.78,81,81,False
+"to be, or not to be",structured,0.09,0,0,False
+"to be, or not to be",vsm,0.67,0,0,False
+"to be, or not to be",bm25,0.36,0,0,False
+English Grammar,structured,0.05,0,0,False
+English Grammar,vsm,0.11,0,0,False
+English Grammar,bm25,0.16,0,0,False
+Philip K Dick,structured,0.04,0,0,False
+Philip K Dick,vsm,0.09,0,0,False
+Philip K Dick,bm25,0.15,0,0,False
+Jabberwocky,structured,0.03,0,0,False
+Jabberwocky,vsm,0.07,0,0,False
+Jabberwocky,bm25,0.12,0,0,False
+Gutenberg,structured,0.03,0,0,False
+Gutenberg,vsm,0.08,0,0,False
+Gutenberg,bm25,0.12,0,0,False
+Dornröschen,structured,0.04,0,0,False
+Dornröschen,vsm,0.08,0,0,False
+Dornröschen,bm25,0.13,0,0,False
+"to be, or not to be",structured,0.06,0,0,False
+"to be, or not to be",vsm,0.10,0,0,False
+"to be, or not to be",bm25,0.38,0,0,False
+English Grammar,structured,0.07,0,0,False
+English Grammar,vsm,0.17,0,0,False
+English Grammar,bm25,0.43,0,0,False
+Philip K Dick,structured,0.04,0,0,False
+Philip K Dick,vsm,0.08,0,0,False
+Philip K Dick,bm25,0.14,0,0,False
+Jabberwocky,structured,0.03,0,0,False
+Jabberwocky,vsm,0.08,0,0,False
+Jabberwocky,bm25,0.12,0,0,False
+Gutenberg,structured,0.03,0,0,False
+Gutenberg,vsm,0.08,0,0,False
+Gutenberg,bm25,0.12,0,0,False
+Dornröschen,structured,0.03,0,0,False
+Dornröschen,vsm,0.08,0,0,False
+Dornröschen,bm25,0.12,0,0,False
+"to be, or not to be",structured,0.04,0,0,False
+"to be, or not to be",vsm,0.11,0,0,False
+"to be, or not to be",bm25,0.17,0,0,False
+English Grammar,structured,0.04,0,0,False
+English Grammar,vsm,0.08,0,0,False
+English Grammar,bm25,0.17,0,0,False
+Philip K Dick,structured,0.04,0,0,False
+Philip K Dick,vsm,0.10,0,0,False
+Philip K Dick,bm25,0.14,0,0,False
+Jabberwocky,structured,0.04,0,0,False
+Jabberwocky,vsm,0.09,0,0,False
+Jabberwocky,bm25,0.15,0,0,False
+Gutenberg,structured,0.04,0,0,False
+Gutenberg,vsm,0.07,0,0,False
+Gutenberg,bm25,0.13,0,0,False
+Dornröschen,structured,0.04,0,0,False
+Dornröschen,vsm,0.08,0,0,False
+Dornröschen,bm25,0.14,0,0,False
+"to be, or not to be",structured,0.04,0,0,False
+"to be, or not to be",vsm,0.09,0,0,False
+"to be, or not to be",bm25,0.14,0,0,False
+English Grammar,structured,0.04,0,0,False
+English Grammar,vsm,0.08,0,0,False
+English Grammar,bm25,0.13,0,0,False
+Philip K Dick,structured,0.04,0,0,False
+Philip K Dick,vsm,0.09,0,0,False
+Philip K Dick,bm25,0.13,0,0,False
+Jabberwocky,structured,0.03,0,0,False
+Jabberwocky,vsm,0.08,0,0,False
+Jabberwocky,bm25,0.14,0,0,False
+Gutenberg,structured,0.04,0,0,False
+Gutenberg,vsm,0.07,0,0,False
+Gutenberg,bm25,0.11,0,0,False
+Dornröschen,structured,0.03,0,0,False
+Dornröschen,vsm,0.09,0,0,False
+Dornröschen,bm25,0.13,0,0,False
+"to be, or not to be",structured,118.63,100,100,False
+"to be, or not to be",vsm,0.33,0,0,False
+"to be, or not to be",bm25,459149.95,100,100,True
+English Grammar,structured,11.47,100,100,False
+English Grammar,vsm,54.06,100,100,False
+English Grammar,bm25,14.91,100,100,False
+Philip K Dick,structured,9.32,100,100,False
+Philip K Dick,vsm,47.33,100,100,False
+Philip K Dick,bm25,49.00,100,100,False
+Jabberwocky,structured,0.02,0,0,False
+Jabberwocky,vsm,0.25,43,43,False
+Jabberwocky,bm25,0.38,43,43,False
+Gutenberg,structured,3.14,100,100,False
+Gutenberg,vsm,8.37,100,100,False
+Gutenberg,bm25,10.60,100,100,False
+Dornröschen,structured,820.59,0,0,False
+Dornröschen,vsm,0.36,81,81,False
+Dornröschen,bm25,0.52,81,81,False

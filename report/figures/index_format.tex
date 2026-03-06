@@ -1,0 +1,56 @@
+% Index Format Diagram (TikZ)
+% Include with: \input{figures/index_format.tex}
+\begin{figure}[t]
+\centering
+\resizebox{\columnwidth}{!}{%
+\begin{tikzpicture}[
+    table/.style={draw, minimum width=4.5cm, minimum height=0.6cm,
+                  fill=#1!10, font=\small, align=center},
+    table/.default=blue,
+    bintable/.style={draw, minimum width=4.5cm, minimum height=0.6cm,
+                     fill=orange!10, font=\small, align=center},
+    header/.style={font=\small\bfseries, fill=#1!25},
+    header/.default=blue,
+    arrow/.style={->, >=stealth, thick, dashed},
+]
+
+% SQLite column
+\node[header, minimum width=4.5cm, minimum height=0.5cm] (sh) at (0,0)
+    {index.sqlite (1.28\,GB)};
+
+\node[table, below=0.1cm of sh] (lex)
+    {\textbf{lexicon}\\term $|$ df $|$ offset $|$ length\\22{,}463{,}450 rows};
+\node[table, below=0.1cm of lex] (dmap)
+    {\textbf{docmap}\\docid $\to$ gutenberg\_id\\70{,}772 rows};
+\node[table, below=0.1cm of dmap] (dstat)
+    {\textbf{docstats}\\docid $|$ doc\_len $|$ doc\_norm\\70{,}772 rows};
+\node[table, below=0.1cm of dstat] (glob)
+    {\textbf{globals}\\N=70{,}772 $|$ avgdl=61{,}570};
+\node[table, below=0.1cm of glob] (meta)
+    {\textbf{metadata}\\gutenberg\_id $|$ title $|$ authors\\72{,}180 rows};
+
+% Postings column
+\node[header=orange, minimum width=5cm, minimum height=0.5cm]
+    (ph) at (6.5,0) {postings.bin (1.15\,GB)};
+
+\node[bintable, below=0.1cm of ph, text width=4.8cm] (p1)
+    {Term 1: gap$_1$ tf$_1$ gap$_2$ tf$_2$ \ldots};
+\node[bintable, below=0.1cm of p1, text width=4.8cm] (p2)
+    {Term 2: gap$_1$ tf$_1$ \ldots};
+\node[bintable, below=0.1cm of p2, text width=4.8cm, fill=orange!5] (dots)
+    {\vdots};
+\node[bintable, below=0.1cm of dots, text width=4.8cm] (pn)
+    {Term 22M: gap$_1$ tf$_1$ \ldots};
+
+% Encoding note
+\node[below=0.3cm of pn, font=\footnotesize\itshape, text width=5cm, align=center]
+    {All integers encoded as\\variable-length byte (varint).\\Doc-IDs stored as gaps.};
+
+% Arrow from lexicon to postings
+\draw[arrow] (lex.east) -- node[above, font=\scriptsize] {offset, length} (p1.west);
+
+\end{tikzpicture}%
+}
+\caption{Index storage format: SQLite stores the lexicon (mapping terms to postings offsets), document maps, statistics, and metadata. The postings file uses varint-encoded gap compression for doc-IDs and term frequencies.}
+\label{fig:index-format}
+\end{figure}

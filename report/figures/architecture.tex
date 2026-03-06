@@ -1,0 +1,73 @@
+% System Architecture Diagram (TikZ)
+% Include with: \input{figures/architecture.tex}
+\begin{figure*}[t]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+    node distance=1.2cm and 1.5cm,
+    box/.style={draw, rounded corners, minimum width=2cm, minimum height=0.8cm,
+                fill=#1!15, font=\small},
+    box/.default=blue,
+    storage/.style={draw, minimum width=1.8cm, minimum height=0.8cm,
+                    fill=orange!15, font=\small},
+    arrow/.style={->, >=stealth, thick},
+    label/.style={font=\footnotesize\itshape, text=gray}
+]
+
+% Input
+\node[box=green] (csv) {metadata.csv};
+\node[box=green, below=0.6cm of csv] (txt) {\shortstack{text files\\(70{,}772)}};
+
+% Preprocessing
+\node[box, right=1.5cm of csv] (nfkc) {NFKC + Casefold};
+\node[box, right=1.2cm of nfkc] (hyph) {Hyphen Split};
+\node[box, right=1.2cm of hyph] (tok) {Tokenize};
+\node[box, right=1.2cm of tok] (alias) {Accent-Fold};
+\node[box=gray, below=0.6cm of nfkc] (strip) {\shortstack{Boilerplate\\Strip}};
+
+% Indexing
+\node[box=purple, right=1.2cm of alias] (spimi) {\shortstack{SPIMI\\Block Writer}};
+\node[box=purple, right=1.2cm of spimi] (merge) {\shortstack{K-way Merge\\+ Varint}};
+
+% Storage
+\node[box=orange, right=1.5cm of merge, yshift=0.5cm] (sqlite)
+    {\shortstack{index.sqlite\\lexicon $\cdot$ docmap\\docstats $\cdot$ globals}};
+\node[box=orange, right=1.5cm of merge, yshift=-0.5cm] (bin)
+    {\shortstack{postings.bin\\gap+varint}};
+
+% Retrieval
+\node[box=red, right=1.5cm of sqlite, yshift=0.8cm] (struct) {Structured};
+\node[box=red, right=1.5cm of sqlite, yshift=-0.0cm] (vsm) {VSM (TF-IDF)};
+\node[box=red, right=1.5cm of bin, yshift=0.0cm] (bm25) {BM25};
+\node[box=red, below=0.4cm of bm25] (phrase) {Phrase Fallback};
+
+% Output
+\node[box=green, right=1.5cm of vsm] (tsv) {18 TSVs};
+
+% Arrows
+\draw[arrow] (txt) -- (strip);
+\draw[arrow] (strip) -- (nfkc);
+\draw[arrow] (csv) -- (nfkc);
+\draw[arrow] (nfkc) -- (hyph);
+\draw[arrow] (hyph) -- (tok);
+\draw[arrow] (tok) -- (alias);
+\draw[arrow] (alias) -- (spimi);
+\draw[arrow] (spimi) -- (merge);
+\draw[arrow] (merge) -- (sqlite);
+\draw[arrow] (merge) -- (bin);
+\draw[arrow] (sqlite) -- (struct);
+\draw[arrow] (sqlite) -- (vsm);
+\draw[arrow] (sqlite) -- (bm25);
+\draw[arrow] (bin) -- (vsm);
+\draw[arrow] (bin) -- (bm25);
+\draw[arrow] (bm25) -- (phrase);
+\draw[arrow] (struct) -- (tsv);
+\draw[arrow] (vsm) -- (tsv);
+\draw[arrow] (bm25) -- (tsv);
+\draw[arrow] (phrase) -| (tsv);
+
+\end{tikzpicture}%
+}
+\caption{System architecture: data flows from raw text files through preprocessing and SPIMI indexing into a dual-store index (SQLite + binary postings), which serves three retrieval models producing ranked TSV outputs.}
+\label{fig:architecture}
+\end{figure*}
